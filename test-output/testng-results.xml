@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ArborMetrix Hiring Project" duration-ms="58948" started-at="2020-12-17T07:18:20Z" finished-at="2020-12-17T07:19:19Z">
+    <groups>
+    </groups>
+    <test name="Registration Form" duration-ms="58948" started-at="2020-12-17T07:18:20Z" finished-at="2020-12-17T07:19:19Z">
+      <class name="arbormetrix.testcases.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="setUp" is-config="true" duration-ms="11198" started-at="2020-12-17T02:18:20Z" finished-at="2020-12-17T02:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="verifyContactsPageLabel" duration-ms="33" started-at="2020-12-17T02:18:31Z" finished-at="2020-12-17T02:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1088" started-at="2020-12-17T02:18:31Z" finished-at="2020-12-17T02:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="setUp" is-config="true" duration-ms="9565" started-at="2020-12-17T02:18:32Z" finished-at="2020-12-17T02:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFieldsArePresent()[pri:1, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="verifyFieldsArePresent" duration-ms="344" started-at="2020-12-17T02:18:42Z" finished-at="2020-12-17T02:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldsArePresent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1134" started-at="2020-12-17T02:18:42Z" finished-at="2020-12-17T02:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="setUp" is-config="true" duration-ms="8397" started-at="2020-12-17T02:18:44Z" finished-at="2020-12-17T02:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatingStudentReistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="validatingStudentReistration" duration-ms="3269" started-at="2020-12-17T02:18:53Z" data-provider="getStudentTestData" finished-at="2020-12-17T02:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chowdhury]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1995.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123 Test Street]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apt 123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Lincoln Park]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[New Jersey]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[48085]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[testemail@test.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.015258978E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2.012589631E9]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[2.12242895E9]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Walgreen]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Math 101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingStudentReistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1560" started-at="2020-12-17T02:18:56Z" finished-at="2020-12-17T02:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="setUp" is-config="true" duration-ms="8441" started-at="2020-12-17T02:18:57Z" finished-at="2020-12-17T02:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatingStudentReistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="validatingStudentReistration" duration-ms="3185" started-at="2020-12-17T02:19:06Z" data-provider="getStudentTestData" finished-at="2020-12-17T02:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1990.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[555 Selenium Street]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apt 111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Troy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Michigan]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[48083]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[test@testgmail.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.018529637E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2.526314789E9]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[2.12589632E9]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Group M]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Creative writing 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingStudentReistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="779" started-at="2020-12-17T02:19:09Z" finished-at="2020-12-17T02:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="setUp" is-config="true" duration-ms="8317" started-at="2020-12-17T02:19:10Z" finished-at="2020-12-17T02:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCourseIsPresentFromDropDownList()[pri:3, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="verifyCourseIsPresentFromDropDownList" duration-ms="138" started-at="2020-12-17T02:19:18Z" finished-at="2020-12-17T02:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCourseIsPresentFromDropDownList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:arbormetrix.testcases.RegistrationTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="723" started-at="2020-12-17T02:19:18Z" finished-at="2020-12-17T02:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- arbormetrix.testcases.RegistrationTest -->
+    </test> <!-- Registration Form -->
+  </suite> <!-- ArborMetrix Hiring Project -->
+</testng-results>

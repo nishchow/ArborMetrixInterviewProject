@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ArborMetrix Hiring Project]">
+  <listeners>
+    <listener class-name="extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Registration Form(failed)">
+    <classes>
+      <class name="arbormetrix.testcases.RegistrationTest">
+        <methods>
+          <include name="validatingStudentReistration" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- arbormetrix.testcases.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration Form(failed) -->
+</suite> <!-- Failed suite [ArborMetrix Hiring Project] -->
